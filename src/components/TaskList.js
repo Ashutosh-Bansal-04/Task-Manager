@@ -9,8 +9,9 @@ const TaskList = () => {
   const filteredTasks = tasks.filter((task) => {
     if (filter === "completed") return task.isCompleted;
     if (filter === "pending") return !task.isCompleted;
-    if (filter === "overdue") return new Date(task.dueDate) < new Date();
-    return true;
+    if (filter === "overdue")
+      return new Date(task.dueDate) < new Date() && !task.isCompleted;
+    return true; // 'all' case
   });
 
   return (

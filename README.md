@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# To run the application
+
+1. Start the app by using the command: 'npm start'.
+2. Visit "http://localhost:3000" in your native browser.
+3. Now you can Add a task, then click the Edit button.
+   Update the task details in the dialog box and save.
+   Filter the tasks.
+
 ## Available Scripts
 
 In the project directory, you can run:
