@@ -27,11 +27,6 @@ const tasksSlice = createSlice({
     setFilter: (state, action) => {
       state.filter = action.payload;
     },
-    editTask: (state, action) => {
-      const { id, updates } = action.payload;
-      const task = state.tasks.find((task) => task.id === id);
-      if (task) Object.assign(task, updates);
-    },
   },
 });
 

@@ -2,7 +2,7 @@ import React from "react";
 import TaskForm from "../components/TaskForm";
 import TaskList from "../components/TaskList";
 import FilterBar from "../components/FilterBar";
-import { Box, Typography, Container } from "@mui/material";
+import { Typography, Container } from "@mui/material";
 
 const TaskDashboard = () => (
   <Container maxWidth="md" sx={{ padding: 3 }}>
