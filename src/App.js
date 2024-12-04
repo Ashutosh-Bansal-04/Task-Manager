@@ -10,7 +10,7 @@ const App = () => (
     <CssBaseline />
     <Router>
       <Routes>
-        <Route path="/" element={<TaskDashboard />} />
+        <Route path="/tasks" element={<TaskDashboard />} />
       </Routes>
     </Router>
   </Provider>
